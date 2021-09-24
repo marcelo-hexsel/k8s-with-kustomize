@@ -1,2 +1,5 @@
+commonLabels:
+  app: nginx-with-kustomization
+
 resources:
   - deployment.yaml

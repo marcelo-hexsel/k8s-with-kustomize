@@ -1,0 +1,7 @@
+nameSuffix: "-one"
+commonLabels:
+  variant: one
+bases:
+- ../../base
+patches:
+- environment-for-one.yaml

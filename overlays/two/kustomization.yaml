@@ -1,0 +1,7 @@
+nameSuffix: "-two"
+commonLabels:
+  variant: two
+bases:
+- ../../base
+patches:
+- environment-for-two.yaml

@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: nginx
+        env:
+          - name: VAR_A
+            value: "value_a_for_two"
+          

@@ -22,6 +22,8 @@ spec:
             value: "value_a"
           - name: VAR_B
             value: "value_b"
+          - name: VAR_D
+            value: "value_d"
         envFrom:
           - configMapRef:
               name: nginx-cm
